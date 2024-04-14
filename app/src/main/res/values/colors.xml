@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#772BE4</color>
+    <color name="colorPrimaryDark">#4D0DA8</color>
+    <color name="colorAccent">#772BE4</color>
+
+    <color name="colorBackgroundLogo">#FFFFFF</color>
+
+    <color name="colorBackgroundClientMqtt">#FFFFFF</color>
+    <color name="colorBackgroundDashboard">#FFFFFF</color>
+    <color name="colorBackgroundSetting">#FFFFFF</color>
+    <color name="colorBackgroundSystem">#000000</color>
+
+    <color name="colorBackgroundTitle">#F7686767</color>
+    <color name="colorTextTitle">#FFFFFF</color>
+
+    <color name="colorTextUser">#F7A19D9D</color>
+    <color name="colorTextStatus">#7C772BE4</color>
+    <color name="colorTextHist">#FFC107</color>
+    <color name="colorTextTemp">#03A9F4</color>
+
+    <color name="colorTextMain">#F7686767</color>
+
+    <color name= "colorTextButtonRelayON">#13da33</color>
+    <color name= "colorTextButtonRelayOFF">#F44336</color>
+
+    <color name="colorSpace">#772BE4</color>
+    <color name="colorSpaceStart">#7C772BE4</color>
+    <color name="colorSpaceCenter">#32772BE4</color>
+    <color name="colorSpaceEnd">#FFFFFF</color>
+
+    <color name="colorTitleStart">#F7686767</color>
+    <color name="colorTitleCenter">#0D686767</color>
+    <color name="colorTitleEnd">#FFFFFF</color>
+
+    <color name="colorSideStart">#27616161</color>
+    <color name="colorSideCenter">#FFFFFF</color>
+    <color name="colorSideEnd">#F75C5B5B</color>
+
+</resources>

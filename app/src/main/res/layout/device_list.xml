@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+    <Button
+        style="@style/ButtonRelayTheme"
+        android:id="@+id/btnDeleteDevice"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:drawableTop="@android:drawable/ic_delete"
+        android:padding="15dp"
+        android:text="@string/delete"
+        />
+    <Button
+        style="@style/ButtonRelayTheme"
+        android:id="@+id/btnInfoDevice"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:drawableTop="@drawable/ic_button_info"
+
+        android:padding="15dp"
+        android:text="@string/info"/>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    android:layout_marginStart="10dp"
+    >
+    <TextView
+        android:id="@+id/textViNameDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/name_device"
+        android:textColor="@color/colorTextMain"
+        android:textSize="@dimen/textSizeInfo"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/textViAliasDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/alias_device"
+        android:textColor="@color/colorTextMain"
+        android:textSize="@dimen/textSizeInfo"
+        android:textStyle="italic"/>
+</LinearLayout>
+</LinearLayout>

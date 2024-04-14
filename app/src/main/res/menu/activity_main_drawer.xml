@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item android:title="@string/group_menu_clientmqtt">
+            <menu>
+                <item
+                    android:id="@+id/nav_connection"
+                    android:icon="@drawable/ic_menu_connect"
+                    android:title="@string/menu_connection" />
+            </menu>
+        </item>
+        <item android:title="@string/group_menu_dashboard">
+            <menu>
+                <item
+                    android:id="@+id/nav_relay"
+                    android:icon="@drawable/ic_menu_interrupt"
+                    android:title="@string/menu_relay" />
+                <item
+                    android:id="@+id/nav_temperature"
+                    android:icon="@drawable/ic_menu_temperature"
+                    android:title="@string/menu_temperature" />
+            </menu>
+        </item>
+        <item android:title="@string/group_menu_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting_device"
+                android:icon="@drawable/ic_menu_device_setting"
+                android:title="@string/menu_setting_device" />
+            <item
+                android:id="@+id/nav_setting_connection"
+                android:icon="@drawable/ic_menu_connection_setting"
+                android:title="@string/menu_setting_connection" />
+            <item
+                android:id="@+id/nav_addDevice"
+                android:icon="@drawable/ic_menu_device"
+                android:title="@string/menu_addDevice" />
+        </menu>
+    </item>
+        <item android:title="@string/group_menu_system">
+            <menu>
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_menu_terminal_cmd"
+                android:title="@string/menu_history" />
+            </menu>
+        </item>
+</menu>
